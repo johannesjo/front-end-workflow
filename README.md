@@ -11,6 +11,10 @@
 #Step 3
 * adding basic html file and basic scss file
 * installing ruby, sass and compass
-  * http://compass-style.org/install/
+ * http://compass-style.org/install/
 *  compile scss via ```sass --watch styles```
-* 
+
+#Step 5
+* (optional init Gruntfile)
+ * install ```npm install -g grunt-init``` and a basic gruntfile-generator ```git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/gruntfile```
+ * 
