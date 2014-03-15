@@ -9,6 +9,7 @@
 
 #Step 3
 * adding basic html file and basic scss file
-* installing ruby
-* installing compass and sass: http://compass-style.org/install/
+* installing ruby, sass and compass
+  * http://compass-style.org/install/
+*  compile scss via ```sass --watch styles```
 * 
