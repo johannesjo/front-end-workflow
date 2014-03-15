@@ -65,11 +65,10 @@ components/calendar/_calendar-month.scss
 components/calendar/_calendar-agenda.scss 
 components/_carousel.scss
 components/_video.scss 
-
 ```
 
-
 ## Step 6: Hacking bootstrap
+When it comes to css, working with a lot of overwrites sis generally not a good strategy with the exception of base-styles and states like hover. The same is true for frameworks like bootstrap, which usually offer a great deal of features, but can beceome quite painful to deal with, when someone includes only the bootstrap.css and tries to modify components via overwrites. Usually its much better to use the sass or less version of bs and include only the compoenents you need. Furthermore you can take the source of components and modify them directly.
 
 ## Step 7: JavaScript and other components
 
