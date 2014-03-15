@@ -1,4 +1,4 @@
-# Setup a basic front-end workflow
+# Setting up a basic front-end workflow
 
 ## Step 1: Installing node and node_modules
 * Install node (and np): https://github.com/joyent/node/wiki/Installation
