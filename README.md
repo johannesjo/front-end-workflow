@@ -24,16 +24,29 @@
  * https://www.ruby-lang.org/en/installation/#rvm
  * ```gem install sass``` or ```sudo gem install sass``` depending on configuration
  * ```gem install compass``` or ```sudo gem install compass``` depending on configuration
-*  compile scss via ```sass --watch styles```
+*  test scss-compilation via ```sass --watch your-css-directory```
 
 ## Step 4: Using grunt as task-runner
 * adding basic Gruntfile, live-reload-example
  * ```npm install grunt-contrib-sass --save-dev```
  * ```npm install grunt-contrib-watch --save-dev```
  * Installing livereload chrome extension: https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
- * loading modules and adding tasks to Gruntfile
+ * loading modules and adding tasks in Gruntfile (see Gruntfile.js)
 
 ## Step 5: Basic css-file structure
+```
+base/ => basic elements like tables, forms, p-tags, headings, etc.
+components/ => mostly context-independend (responsive) components
+modules/ => abstract mostly unstyled css classes (e.g. tabs; rarely used, as mixins or hacking components is usually prefered)
+layout/ => main content blocks, custom-grids
+design/ => main page styles
+mixins/ => mixins and extensions
+themes/ => page-level style-sets
+vendor/ => placeholder files including libraries and parts of it as needed
+_config.scss => configuration variables
+main.scss => file inclusions
+main.css => outputted css file
+```
 
 ## Step 6: Hacking bootstrap
 
