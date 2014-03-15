@@ -47,6 +47,27 @@ _config.scss => configuration variables
 main.scss => file inclusions
 main.css => outputted css file
 ```
+* The file structure varies from project to project depending on scale and type of project. Usually the basic pattern is maintained. 
+* But there usually will be at least one config file and components are normally separated.
+* Depending on the number of contents there might be single files, e.g. _components.scss _base.scss or directory used for the separation of styles. Example:
+
+```
+components/_video-container.scss 
+components/_search-bar.scss 
+components/_calendar.scss 
+components/_carousel.scss 
+```
+
+or even:
+```
+components/calendar/_calendar-week.scss 
+components/calendar/_calendar-month.scss 
+components/calendar/_calendar-agenda.scss 
+components/_carousel.scss
+components/_video.scss 
+
+```
+
 
 ## Step 6: Hacking bootstrap
 
