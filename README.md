@@ -16,7 +16,7 @@
 
 ## Step 2: Installing bower-components
 * create bower.json ```bower init```
-* ```bower install -S bootstra-sass```
+* ```bower install -S bootstrap-sass```
 
 ## Step 3: Basic sass-styling and sass to css conversion
 * adding basic html file and basic scss file for testing purposes
