@@ -14,7 +14,7 @@
  * http://compass-style.org/install/
 *  compile scss via ```sass --watch styles```
 
-#Step 5
+#Step 4
 * (optional init Gruntfile)
  * install ```npm install -g grunt-init``` and a basic gruntfile-generator ```git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/gruntfile```
  * 
