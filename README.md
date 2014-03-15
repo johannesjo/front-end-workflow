@@ -43,7 +43,7 @@ design/ => main page styles
 mixins/ => mixins and extensions
 themes/ => page-level style-sets
 vendor/ => placeholder files including libraries and parts of it as needed
-_config.scss => configuration variables
+_config.scss => configuration variables, including bootstraps variables
 main.scss => file inclusions
 main.css => outputted css file
 ```
@@ -68,11 +68,19 @@ components/_video.scss
 ```
 
 ## Step 6: Hacking bootstrap
-When it comes to css, working with a lot of overwrites sis generally not a good strategy with the exception of base-styles and states like hover. The same is true for frameworks like bootstrap, which usually offer a great deal of features, but can beceome quite painful to deal with, when someone includes only the bootstrap.css and tries to modify components via overwrites. Usually its much better to use the sass or less version of bs and include only the compoenents you need. Furthermore you can take the source of components and modify them directly.
+When it comes to coding css, working with a lot of overwrites is generally not a good strategy with the exception of base-styles and states like hover. The same is true for css-frameworks like bootstrap, which usually offer a great deal of features, but can beceome quite painful to deal with, when someone includes only the bootstrap.css and tries to modify components via overwrites. 
+Usually it is much easier to use the sass or less version of bootstrap and include only the compoenents you need. Furthermore you can take the source of components and modify them directly. Bootstrap is usually also not updated that often, that it is required to stay on its latest version. 
+Hacked components can be simply put into the components directory.
 
 ## Step 7: JavaScript and other components
 
-## (Step 8): Concactination, minification and advanced build features
+## Step 8: Getting an existing repo to run, when node, bower, grunt and sass are installed
+1. Clone via git
+2. cd to base-directory
+3. run ```npm install```
+4. run ```bower install```
 
-## (Step: 9): Advanced grunt-setup using load-grunt-config
+## (Step 9): Concactination, minification and advanced build features
+
+## (Step: 10): Advanced grunt-setup using load-grunt-config
 * http://firstandthird.github.io/load-grunt-config/
