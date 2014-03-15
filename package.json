@@ -1,0 +1,8 @@
+{
+  "name": "basic-front-end",
+  "description": "A simple package",
+  "author": "johannes millan <j@m.web>",
+  "dependencies": {
+  },
+  "engine": "node 0.10.1"
+}
