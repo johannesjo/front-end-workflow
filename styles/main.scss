@@ -1,11 +1,14 @@
 body {
 	font-family: sans;
-	color: orange;
+	color: orange ;
+	background: orange;
+	box-shadow: 1px 1px 25px rgba(0,0,0,0.5);
 }
 
 .main{
-	width: 500px;
-	border: 1px solid #ddd;
+	max-width: 350px;
+	border: 5px solid #ddd;
+	font-size: 19px;
 	border-radius: 10px;
 	margin: 20px auto;
 	padding: 20px;
