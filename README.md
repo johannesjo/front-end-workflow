@@ -1,4 +1,4 @@
-# Getting a basic front-end setup to run
+# Setup a basic front-end workflow
 
 ## Step 1: Installing node and node_modules
 * Install node (and npm): http://howtonode.org/how-to-install-nodejs
