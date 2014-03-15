@@ -1,30 +1,29 @@
 # Setup a basic front-end workflow
 
 ## Step 1: Installing node and node_modules
-* Install node (and npm): https://github.com/joyent/node/wiki/Installation
-*  !Important: prevent access right issues with manual build:
-  *  ```git clone https://github.com/joyent/node.git```
-  *  ```cd node```
-  *  ```git checkout v0.10.26 #Try checking nodejs.org for what the stable version is```
-  *  ```./configure --prefix=/home/yourusername/node # install to user-accessible dir```
-  *  ```make && sudo make install```
-  *  add the following to .bash_rc
-     
-```
-export PATH=$PATH:/home/yourusername/node/bin
-```
-* add basic package.json file ```npm init```
+* Install node (and np): https://github.com/joyent/node/wiki/Installation
+	* !Important: prevent access right issues with manual build, e.g.:
+  * ```git clone https://github.com/joyent/node.git```
+  * ```cd node```
+  * ```git checkout v0.10.26 #Try checking nodejs.org for what the stable version is```
+  * ```./configure --prefix=/home/yourusername/node # install to user-accessible dir```
+  * ```make && sudo make install```
+  *  add the following to ```.bash_rc```: ```export PATH=$PATH:/home/yourusername/node/bin```
+	* for other options see: https://gist.github.com/isaacs/579814
+* create basic package.json file ```npm init```
 * install node modules bower and grunt-cli via ```npm install -g bower grunt-cli``` globally 
 * install node module for grunt ```npm install --save-dev grunt``` only for the current project (we want --save-dev here as the node_modules usually are just helpers and are not needed as deployed files)
 
-## Step 2: Installing bower and bower-components
-* add bower.json ```bower init```
+## Step 2: Installing bower-components
+* create bower.json ```bower init```
 * ```bower install -S bootstra-sass```
 
-## Step 3: Basic sass-styling
-* adding basic html file and basic scss file
+## Step 3: Basic sass-styling and sass to css conversion
+* adding basic html file and basic scss file for testing purposes
 * installing ruby, sass and compass
- * http://compass-style.org/install/
+ * https://www.ruby-lang.org/en/installation/#rvm
+ * ```gem install sass``` or ```sudo gem install sass``` depending on configuration
+ * ```gem install compass``` or ```sudo gem install compass``` depending on configuration
 *  compile scss via ```sass --watch styles```
 
 ## Step 4: Using grunt as task-runner
