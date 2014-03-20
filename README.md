@@ -82,5 +82,7 @@ Hacked components can be simply put into the components directory.
 
 ## (Step 9): Concactination, minification and advanced build features
 
-## (Step: 10): Advanced grunt-setup using load-grunt-config
+## (Step 10): css class-naming strategies
+
+## (Step: 11): Advanced grunt-setup using load-grunt-config
 * http://firstandthird.github.io/load-grunt-config/
